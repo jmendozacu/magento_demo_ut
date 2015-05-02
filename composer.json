@@ -1,0 +1,26 @@
+{
+    "name": "toantc/1.9.1.1",
+    "description": "Magento CE 1.9.1.1 demo with sample data and unit test",
+    "authors": [
+        {
+            "name": "ToanTC",
+            "email": "toantc@smartosc.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3.0",
+        "ecomdev/ecomdev_phpunit": "*",
+        "mikey179/vfsStream": "^1.5",
+        "fzaninotto/faker": "^1.4"
+    },
+    "extra": {
+        "magento-root-dir": "."
+    }
+}
